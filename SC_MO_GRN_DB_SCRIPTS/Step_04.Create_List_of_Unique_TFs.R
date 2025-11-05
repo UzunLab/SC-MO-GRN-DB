@@ -13,7 +13,7 @@ unique_tf_names <- unique(data[[1]])
 # Print the unique TF names
 print(unique_tf_names)
 
-# Optionally, write the unique TF names to a separate file
+# Write the unique TF names to a separate file
 write.table(unique_tf_names, file = "unique_tf_names.txt", quote = FALSE, sep = "\t", row.names = FALSE, col.names = FALSE)
 
 cat("Unique TF names file created: unique_tf_names.txt\n")
