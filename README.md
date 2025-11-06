@@ -28,7 +28,7 @@ The bed files were placed into one directory named TF_CHIP_BED_FILES
 2. Insert the bed file directory name into [Step_01.Find_Nearest_Genes.R](SC_MO_GRN_DB_SCRIPTS/Step_01.Find_Nearest_Genes.R) where prompted
 3. Run all steps in order
 
-```bash
+```console
 Rscript Step_01.Find_Nearest_Genes.R
 Rscript Step_02.Link_TFs_to_Targets.R
 Text file created: tf_gene_symbols.txt
