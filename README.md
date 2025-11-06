@@ -4,7 +4,7 @@
 A comprehensive molecular data repository for constructing and validating GRNs using data from single-cell multi-omics datasets. The goal of the platform is to provide a data and knowledge repository for investigators who aim to build, benchmark, and explore gene regulatory networks with single-cell multi-omics data. https://scmogrndb.psu.edu/
 
 ## Example input
-The input for this pipeline will be bed files from TF ChIP-seq experiments. Here, we will provide 5 bed files within the K562 cell line as downloaded from this paper https://doi.org/10.1093/nar/gkad614
+The input for this are bed files from TF ChIP-seq experiments. Here, we provide 5 bed files within the K562 cell line as downloaded from this paper https://doi.org/10.1093/nar/gkad614
 
 These bed files contain the chromosome number, peak center coordinate, and peak number.
 ```txt
@@ -25,10 +25,10 @@ The bed files were placed into one directory named TF_CHIP_BED_FILES
 
 ## Linking TF to TGs from raw bed files
 1. Place all bed files of a single tissue/cell type into a single directory
-2. Insert the bed file directory name into [Step_01.Run_edgeR_nearestTSS.R](SC_MO_GRN_DB_SCRIPTS/Step_01.Find_Nearest_Genes.R) where prompted
+2. Insert the bed file directory name into [Step_01.Find_Nearest_Genes.R](SC_MO_GRN_DB_SCRIPTS/Step_01.Find_Nearest_Genes.R) where prompted
 3. Run all steps in order
 
-```none
+```bash
 Rscript Step_01.Find_Nearest_Genes.R
 Rscript Step_02.Link_TFs_to_Targets.R
 Text file created: tf_gene_symbols.txt
