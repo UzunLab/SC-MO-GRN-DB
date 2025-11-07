@@ -6,7 +6,7 @@ A comprehensive molecular data repository for constructing and validating GRNs u
 ## Example input
 The input for this are peak files from TF ChIP-seq experiments. Here, we provide example peak files for the K562 cell line as obtained from this study: https://doi.org/10.1093/nar/gkad614
 
-These bed files contain the chromosome number, peak center coordinate, and peak number.
+These peak files contain the chromosome number, peak center coordinate, and peak number.
 ```txt
 chr1    26100   RUNX1-human_K562_SE-peaks_peak_1
 chr1    29324   RUNX1-human_K562_SE-peaks_peak_2
