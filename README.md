@@ -24,8 +24,8 @@ The peak files were placed into one directory named TF_CHIP_BED_FILES
 [`TF_CHIP_BED_FILES`](TF_CHIP_BED_FILES)
 
 ## Linking TF to TGs from raw bed files
-1. Place all bed files of a single tissue/cell type into a single directory
-2. Insert the bed file directory name into [Step_01.Find_Nearest_Genes.R](SC_MO_GRN_DB_SCRIPTS/Step_01.Find_Nearest_Genes.R) where prompted
+1. Place all input files of a single tissue/cell type into a single directory
+2. Insert the input file directory name into [Step_01.Find_Nearest_Genes.R](SC_MO_GRN_DB_SCRIPTS/Step_01.Find_Nearest_Genes.R) where prompted
 3. Run all steps in order
 
 ```shell
