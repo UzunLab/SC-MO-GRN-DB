@@ -4,7 +4,7 @@
 A comprehensive molecular data repository for constructing and validating GRNs using data from single-cell multi-omics datasets. The goal of the platform is to provide a data and knowledge repository for investigators who aim to build, benchmark, and explore gene regulatory networks with single-cell multi-omics data. https://scmogrndb.psu.edu/
 
 ## Example input
-The input for this are bed files from TF ChIP-seq experiments. Here, we provide 5 bed files within the K562 cell line as downloaded from this paper https://doi.org/10.1093/nar/gkad614
+The input for this are peak files from TF ChIP-seq experiments. Here, we provide example peak files for the K562 cell line as obtained from this study: https://doi.org/10.1093/nar/gkad614
 
 These bed files contain the chromosome number, peak center coordinate, and peak number.
 ```txt
@@ -20,7 +20,7 @@ chr1    204893  RUNX1-human_K562_SE-peaks_peak_9
 chr1    207067  RUNX1-human_K562_SE-peaks_peak_10
 ```
 
-The bed files were placed into one directory named TF_CHIP_BED_FILES
+The peak files were placed into one directory named TF_CHIP_BED_FILES
 [`TF_CHIP_BED_FILES`](TF_CHIP_BED_FILES)
 
 ## Linking TF to TGs from raw bed files
